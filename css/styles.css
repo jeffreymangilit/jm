@@ -1,0 +1,243 @@
+body{
+    text-align: center;   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+
+}
+
+.container-fluid{
+    padding: 7% 15%;
+    
+}
+
+
+
+nav .container-fluid{
+    padding: 0 7%;
+    text-align: left;
+}
+
+#footer .container-fluid{
+    padding: 3% 15%;
+}
+
+h1, h2, h3, h4, h5, h6,{
+    font-family:Arial;
+    font-weight:bold;
+
+}
+
+h2{
+    font-size: 2.5rem;
+    font-weight: bold;
+
+}
+
+h3{
+    font-weight: bold;
+}
+.big-heading{
+    font-size: 4rem;
+    font-weight: bold;
+    color: white;
+
+}
+
+
+.med-heading{
+    font-size: 2.5rem;
+    color: white;
+    font-weight:normal;
+
+}
+.med-heading{
+    font-size: 2.5rem;
+    color: white;
+
+}
+
+.sml-heading{
+    font-size: 2rem;
+    color: white;
+
+}
+
+
+.navbar{
+    transition: 1s;
+
+}
+
+.navbar-brand{
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+
+
+.blackNav{
+    background-color: #0a1c21;
+}
+
+.ligthSection
+{
+    color: #0a1c21;
+
+}
+
+.darkSection{
+    color:#fff;
+}
+
+
+/* home section */
+
+#home{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url('../images/bg.png');   
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+
+}
+
+
+
+.title{
+    padding:20%;
+}
+
+
+/* About Me section */
+
+
+.profilePic{
+    width: 200px;
+    margin: 3%;
+}
+
+
+
+/* Skills Section */
+
+#skills{
+    background-color: #102930;
+    color: white;
+     
+}
+
+
+#skills h3{
+    color: #fff;
+    
+    
+}
+
+
+#skills p{
+    color: #9e9ea8;
+        
+
+}
+.skill-row {
+    position: relative;
+    text-align: left;
+ 
+
+}
+
+.skill1{
+    width: 140px;
+    float: left;
+    margin-right: 30px;
+    border-radius: 15%;
+}
+
+.skill2{
+    width: 140px;
+    float: right;
+    margin-left: 30px;
+    border-radius: 15%;
+    
+}
+
+
+
+/* Contact Section */
+
+.btn{
+    background-color: #47476e;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    position: relative;
+    font-weight: bold;
+}
+
+.btn:hover{
+    background-color: white;
+    border: solid #47476e 1px;
+    color: #47476e;
+}
+
+/* Footer Section */
+
+#footer{
+    background-color:#102930;
+}
+
+
+#footer a {
+       
+    text-decoration: none;
+    padding: 10px 0;
+    margin: 10px;
+
+}
+
+#footer a:hover {
+    border-bottom: 2px solid lightblue;
+   
+
+}
+
+#footer p{
+    font-size: 15px;
+    padding-top: 20px;
+    color: lightgray;
+   
+}
+
+.footer-icon{
+    width: 25px;
+    
+
+}
+
+.footer-icon:hover{
+    
+}
+
+/* Media Query */
+
+
+@media (max-width: 900px){
+    .container-fluid{
+        padding: 7% 6%;
+    }
+
+    nav .container-fluid{
+        padding: 0 6%;
+    }
+
+    .title{
+        text-align: center;
+        padding-top: 50%;
+    }
+        
+    
+
+    .med-heading{
+        font-size: 2rem;
+    }
+}
