@@ -7,12 +7,12 @@ body{
 }
 
 p {
-    font-size: 18px;
+    font-size: 1.3rem;
 }
 /* container section */
 
 .container-fluid{
-    padding: 7% 20%;
+    padding: 7% 25%;
     
 }
 
@@ -270,4 +270,29 @@ h3{
     .med-heading{
         font-size: 2rem;
     }
+
+    .skill-row {
+        position: relative;
+        text-align: center;
+        padding: 5% 0;
+     
+    
+    }
+    
+    .skill1{
+        width: 50%;      
+        margin: 20px 0;
+        border-radius: 15%;
+        float: none;
+    
+    }
+    
+    .skill2{
+        width: 50%;        
+        margin: 20px 0;
+        border-radius: 15%;
+        float: none;
+        
+    }
+    
 }
