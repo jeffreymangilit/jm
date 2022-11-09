@@ -35,7 +35,7 @@ nav .container-fluid{
     padding: 3% 15%;
 }
 
-h1, h2, h3, h4, h5, h6,{
+h1, h2, h3, h4, h5, h6{
     font-family:Arial;
     font-weight:bold;
 
@@ -58,6 +58,9 @@ h3{
 
 }
 
+p{
+    font-size: 1.2rem;
+}
 
 .title .med-heading{
     font-size: 2rem;
@@ -84,12 +87,13 @@ h3{
 }
 
 .nav-item{
-    font-size: 20px;
+    font-size: 1.1rem;
 
 }
 .navbar-brand{
     font-size: 1.5rem;
     font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
 
@@ -133,6 +137,7 @@ h3{
 
 .profilePic{
     width: 200px;
+    border-radius: 50%;
     margin: 3%;
 }
 
@@ -236,14 +241,12 @@ h3{
 
 }
 
-.footer-icon:hover{
-    
-}
+
 
 /* Media Query */
 
 
-@media (max-width: 900px){
+@media (max-width: 1000px){
     .container-fluid{
         padding: 7% 6%;
     }
@@ -259,7 +262,7 @@ h3{
 
 
     nav .container-fluid{
-        padding: 0 6%;
+        padding: 0 3%;
     }
 
     .title{
@@ -297,4 +300,7 @@ h3{
         
     }
     
+    p{
+        font-size: 1rem;
+    }
 }
